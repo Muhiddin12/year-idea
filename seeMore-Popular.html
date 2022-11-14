@@ -1,0 +1,294 @@
+<html lang="en">
+
+<head>
+    <title>See More Popular</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/seeM-popular.css">
+    <link rel="stylesheet" href="./css/movies.css">
+    <link rel="stylesheet" href="./css/top-rated.css">
+    <link rel="stylesheet" href="./css/third-section.css">
+    <link rel="stylesheet" href="./css/seeM-Gpopular.css">
+    <link rel="stylesheet" href="./css/switchColor.css">
+    <link rel="stylesheet" href="./css/palette.css">
+    <link rel="stylesheet" href="./css/moviesBox.css">
+
+    <!-- scroll Colors -->
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-1" 
+    href="./css/color-1.css" disabled>
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-2" 
+    href="./css/color-2.css" disabled>
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-3" 
+    href="./css/color-3.css" disabled>
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-4" 
+    href="./css/color-4.css" disabled>
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-5" 
+    href="./css/color-5.css" >
+</head>
+
+<body>
+
+                                <!-- Loader-->
+  <div class="loading">
+    <div class="main">
+      <div class="dot">
+        <div class="dot2"> </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll button  -->
+
+<div class="arrow">
+    <a href="#scrollBtn">
+        <i class="fa-solid fa-arrow-up-long"></i>
+    </a>
+</div>
+
+
+
+<!-- END Colors  Reverse -->
+
+
+    <div class="navbar">
+    <div class="navbarOne">
+        <div class="navbarTwo">
+            <div class="navBoxLogo">
+                <div class="navLogoBetween">
+                    <div class="logo-cont">
+                        <div class="logo-img">
+                            <a href="index.html">
+                                <img src="./image/video-camera.png" alt="">
+                            </a>
+                        </div>
+                        <div class="logo-text">
+                            <a href="index.html">
+                                <h2>Stair Movie</h2>
+                            </a>
+                        </div>
+                        <div class="iconMoon">
+                            <div class="iconMoonIn">
+                                <img src="./image/moon.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navBox">
+                <a href="movie2.html">
+                    <p>Movies</p>
+                </a>
+            </div>
+            <div class="navBox1">
+                <a href="discovery.html">
+                    <p>Discovery</p>
+                </a>
+            </div>
+            <div class="navBox2">
+                <a href="coming.html">
+                    <p>Coming Soon</p>
+                </a>
+            </div>
+            <div class="navBox">
+                <p>Friends</p>
+            </div>
+            <div class="navBox">
+                <p>Parties</p>
+            </div>
+            <div class="navBox">
+                <a href="media.html">
+                    <p>Media</p>
+                </a>
+            </div>
+            <div class="navSerch">
+                <div class="searchbar">
+                    <div class="searchbar-cont">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+            </div>
+            <div class="navBoxMoon">
+                <div class="iconMoonTwo">
+                    <div class="iconMoonInTwo">
+                        <img src="./image/moon.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="switchColorBox">
+                <div class="hiddened">
+                        
+                </div>
+                <div class="style-switcher outer-shadow">
+                    <div class="colors">
+                        <div class="color-1" onclick="setActiveStyle('color-1')"></div>
+                        <div class="color-2" onclick="setActiveStyle('color-2')"></div>
+                        <div class="color-3" onclick="setActiveStyle('color-3')"></div>
+                        <div class="color-4" onclick="setActiveStyle('color-4')"></div>
+                        <div class="color-5" onclick="setActiveStyle('color-5')"></div>
+                    </div>
+                    <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+                        <img src="./image/chromatic.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="main-body">
+        <div class="main-One-Mov">
+            <div class="main-Two">
+                <div class="second-section">
+                    <div class="topIcons">
+                        <div class="topBox">
+                            <div class="sidebarTop">
+                                <div id="side-menu" class="fas fa-bars">
+                                </div>
+                            </div>
+                            <div class="logo">
+                                <div class="logoIn">
+                                    <div class="logoOne">
+                                        <img src="./image/video-camera.png" alt="">
+                                    </div>
+                                    <div class="logoTwo">
+                                        <p>Stair Movie</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search">
+                                <div class="searchIn">
+                                    <img src="./image/search.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p id="upcoming">TV On The Air</p>
+                    <div class="movies-gallery">
+                        <div class="gallery-cont">
+        
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footerOne">
+                    <div class="footerTwo">
+                        <div class="footerImg1">
+                            <div class="footer-logo-stair">
+                                <img src="./image/video-camera2.png" alt="">
+                            </div>
+                            <h2>Stair Movie</h2>
+                        </div>
+                        <div class="footerImg">
+                            <div class="footerLocation">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <h4>Stair Location</h4>
+                        </div>
+                        <div class="footerImg">
+                            <div class="footerTel">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <h4>Stair Telephone</h4>
+                        </div>
+                        <div class="footerImg">
+                            <div class="footerConvert">
+                                <i class="fa-solid fa-comment"></i>
+                            </div>
+                            <h4>Stair message</h4>
+                        </div>
+                    </div>
+                    <div class="footerThre">
+                        <h4>Assalomu alaykum !</h4>
+                        <div class="footerText">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, amet accusamus. 
+                            Asperiores obcaecati cum nulla quo laudantium consequuntur odio quae.
+                        </div>
+                        <div class="footerIconBox">
+                            <div class="fIcon">
+                                <i class="fa-brands fa-telegram"></i>
+                            </div>
+                            <div class="fIcon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="fIcon">
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                            <div class="fIcon">
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--        Bottom   Navbar   Mobile    -->
+
+    <div class="bottomNav">
+        <div id="footerNavbar">
+          <div class="ish">
+            <div class="bir">
+  
+              <a href="#home">
+                <i class="fa-solid fa-arrow-up"></i>
+              </a>
+  
+            </div>
+            <div class="bir">
+  
+              <a href="#oila">
+                <i class="fa-solid fa-arrow-up"></i>
+              </a>
+  
+            </div>
+            <div class="bir">
+  
+              <a href="#talimIcon">
+                <i class="fa-solid fa-arrow-up"></i>
+              </a>
+  
+            </div>
+            <div class="bir">
+              
+              <a href="#job">
+                <i class="fa-solid fa-arrow-up"></i>
+              </a>
+  
+            </div>
+            <div class="bir">
+  
+              <a href="#jora">
+                <i class="fa-solid fa-arrow-up"></i>
+              </a>
+              
+            </div>
+            <div class="bir">
+              
+              <a href="#sportMan">
+                <i class="fa-solid fa-arrow-up"></i>
+              </a>
+  
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="./js/top-rated.js"></script>
+    <script src="./js/filter.js"></script>
+    <script src="./js/seeMore-popular.js"></script>
+    <script src="./js/style-switcher.js"></script>
+
+</body>
+
+</html>
+
+
+
